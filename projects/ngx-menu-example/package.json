@@ -1,0 +1,17 @@
+{
+  "name": "ngx-menu-example",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^15.2.0",
+    "@angular/core": "^15.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "author": {
+    "name": "Christian",
+    "email": "a.christian.navarro@utponiente.edu.mx",
+    "url": "http://jomatconsultores.com/"
+  },
+  "sideEffects": false
+}

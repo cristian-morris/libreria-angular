@@ -18,18 +18,19 @@ header{
 }
 
 .logo img{
-    height: 50px;
-    margin-right: 10px;
+    height: 100px;
+    margin-right: 40px;
 }
 
 a{
     text-decoration: none;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 h2{
     color: white;
+    margin-left: 50px;
 }
 
 nav a{
@@ -50,4 +51,9 @@ nav a:hover{
     nav{
         padding: 10px 0px;
     }
+}
+
+#barra{
+    height: 10rem;
+
 }

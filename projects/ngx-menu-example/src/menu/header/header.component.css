@@ -24,16 +24,17 @@ header{
 
 a{
     text-decoration: none;
-    color: #212A3E;
+    color: white;
+    font-size: 30px;
 }
 
 h2{
-    color: #212A3E;
+    color: white;
 }
 
 nav a{
-    font-weight: 600;
-    padding-right: 55px;
+    font-weight: 5rem;
+    padding-right: 5rem;
     
 }
 

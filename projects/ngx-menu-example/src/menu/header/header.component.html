@@ -1,34 +1,50 @@
 <body>
-    
     <header class="navbar navbar-dark bg-dark" id="barra">
         <div class="logo">
+          <button class="navbar-toggler mx-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
             <img src="http://jomatconsultores.com/img/logo/logo-bco.png" alt="img">
       
 
         </div>
-        <nav>
-            <a href="" class="link">Inicio</a>
-            <a href="" class="link">Sitios</a>
-            <a href="" class="link">Mas...</a>
-            <a href="#"> <button class="navbar-toggler mx-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button></a>
+        <nav class="mx-3">
+            <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" href="" class="link">Inicio</a>
+            <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" href="" class="link">Sitios</a>
+            <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" href="" class="link">Productos</a>
+            <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" href="" class="link">Más...</a>
+
         </nav>
         
     </header>
-    <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
-        <div class="bg-dark p-4">
-          <h5 class="text-body-emphasis h4">Bienvenido</h5>
-          <span class="text-body-secondary"><a href="http://jomatconsultores.com/">visita nuestro sitio oficial</a></span>
+
+      <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+        <div class="bg-dark p-5">
+          <h5 class="text-body-emphasis h4">Bienvenido...</h5>
+          <span class="text-body-secondary">Visite y conoce más en nuestras redes sociales.</span>
         </div>
       </div>
       <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
-         
         </div>
       </nav>
-</body>
-<script>
-    
-</script>
 
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">No disponible</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Esperando...
+          </div>
+          <div class="modal-footer">
+
+          </div>
+        </div>
+      </div>
+    </div>
+      
+</body>

@@ -1,50 +1,67 @@
 <body>
-    <header class="navbar navbar-dark bg-dark" id="barra">
-        <div class="logo">
-          <button class="navbar-toggler mx-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-            <img src="http://jomatconsultores.com/img/logo/logo-bco.png" alt="img">
-      
+  <header class="navbar navbar-dark bg-dark" id="barra">
+      <div class="logo">
+        <button class="navbar-toggler mx-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <img src="http://jomatconsultores.com/img/logo/logo-bco.png" alt="img">
+    
 
-        </div>
-        <nav class="mx-3">
-            <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" href="" class="link">Inicio</a>
-            <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" href="" class="link">Sitios</a>
-            <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" href="" class="link">Productos</a>
-            <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" href="" class="link">Más...</a>
-
-        </nav>
-        
-    </header>
-
-      <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
-        <div class="bg-dark p-5">
-          <h5 class="text-body-emphasis h4">Bienvenido...</h5>
-          <span class="text-body-secondary">Visite y conoce más en nuestras redes sociales.</span>
-        </div>
       </div>
-      <nav class="navbar navbar-dark bg-dark">
-        <div class="container-fluid">
-        </div>
+      <nav class="mx-3">
+          <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" href="" class="link">Inicio</a>
+          <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" href="" class="link">Sitios</a>
+          <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" href="" class="link">Productos</a>
+          <a type="button" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">Más...</a>
+
       </nav>
+      
+  </header>
 
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">No disponible</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            Esperando...
-          </div>
-          <div class="modal-footer">
+    <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+      <div class="bg-dark p-5">
+        <h5 class="text-body-emphasis h4">Bienvenido...</h5>
+        <span class="text-body-secondary">Visite y conoce más en nuestras redes sociales.</span>
+      </div>
+    </div>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+      </div>
+    </nav>
 
-          </div>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">No disponible</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Esperando...
+        </div>
+        <div class="modal-footer">
+
         </div>
       </div>
     </div>
-      
+  </div>
+    
+  <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+
 </body>

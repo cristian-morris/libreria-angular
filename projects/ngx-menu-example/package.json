@@ -1,6 +1,6 @@
 {
   "name": "ngx-menu-example",
-  "version": "0.0.2",
+  "version": "1.0.1",
   "peerDependencies": {
     "@angular/common": "^15.2.0",
     "@angular/core": "^15.2.0"
@@ -13,5 +13,8 @@
     "email": "a.christian.navarro@utponiente.edu.mx",
     "url": "http://jomatconsultores.com/"
   },
+  "scripts": {
+    "refreshVSToken": "vsts-npm-auth -config .npmrc"
+},
   "sideEffects": false
 }

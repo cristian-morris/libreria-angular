@@ -1,47 +1,48 @@
-<body>
-  <header class="navbar navbar-dark bg-dark" id="barra">
-      <div class="logo">
-        <button class="navbar-toggler mx-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-          
-          <a href="http://jomatconsultores.com/"><img src="http://jomatconsultores.com/img/logo/logo-bco.png" alt="img"></a>
-    
-
-      </div>
-      <nav class="mx-3">
-          <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" href="" class="link">Inicio</a>
-          <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" href="" class="link">Sitios</a>
-          <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" href="" class="link">Productos</a>
-          <a type="button" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">Más...</a>
-
-      </nav>
-      
-  </header>
-
-    <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
-      <div class="bg-dark p-5">
-        <h5 class="text-body-emphasis h4">Bienvenido...</h5>
-        <span class="text-body-secondary">Conoce más...</span>
-        <br><br>
-          <div>
-            <a href="https://www.facebook.com/jomatconsultores"><button type="button" class="btn btn-outline-primary mx-1">Facebook</button></a>
-            <a href="https://api.whatsapp.com/send?phone=+5213311226564&text=Me comunico del sitio JomatConsultores.com"><button type="button" class="btn btn-outline-success mx-1">Whatsapp</button></a>
-            <a href="https://www.instagram.com/jomatconsultores/"><button type="button" class="btn btn-outline-danger mx-1">Instagram</button></a>
-            <a href="mailto:contacto@jomatconsultores.com"><button type="button" class="btn btn-outline-warning mx-1">G-mail</button></a>
-            <a href="https://mx.linkedin.com/company/jomat-consultores?trk=public_profile_experience-item_profile-section-card_subtitle-click"><button type="button" class="btn btn-outline-info mx-1">Linkedin</button></a>
-            
-          </div>
-          
+<nav class="navbar navbar-dark bg-dark">
+    <a href="http://jomatconsultores.com/"><img src="http://jomatconsultores.com/img/logo/logo-bco.png" alt="img"></a>
+  
+    <div class="container">
+      <a class="navbar-brand" href="#">
+      </a>
+      <ul class="nav justify-content-end">
+        <li class="nav-item mx-3">
+          <a type="button" class="btn btn-primary mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal" href="" class="link">Inicio</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a type="text" class="btn btn-primary mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal" href="" class="link">Productos</a>
+        </li>
+        <li class="nav-item mx-3">
+          <a type="text" class="btn btn-primary mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal" href="" class="link">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a type="button" class="navbar-toggler mx-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">Más...</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+    <div class="bg-dark p-4">
+      <h5 class="text-body-emphasis h4">Collapsed content</h5>
+      <span class="text-body-secondary">Toggleable via the navbar brand.</span>
+      <br><br>
+      <div>
+        <a href="https://www.facebook.com/jomatconsultores"><button type="button" class="btn btn-outline-primary mx-1">Facebook</button></a>
+        <a href="https://api.whatsapp.com/send?phone=+5213311226564&text=Me comunico del sitio JomatConsultores.com"><button type="button" class="btn btn-outline-success mx-1">Whatsapp</button></a>
+        <a href="https://www.instagram.com/jomatconsultores/"><button type="button" class="btn btn-outline-danger mx-1">Instagram</button></a>
+        <a href="mailto:contacto@jomatconsultores.com"><button type="button" class="btn btn-outline-warning mx-1">G-mail</button></a>
+        <a href="https://mx.linkedin.com/company/jomat-consultores?trk=public_profile_experience-item_profile-section-card_subtitle-click"><button type="button" class="btn btn-outline-info mx-1">Linkedin</button></a>
+        
       </div>
     </div>
-    
-    <nav class="navbar navbar-dark bg-dark">
-      <div class="container-fluid">
-      </div>
-    </nav>
-
-  <!-- Modal -->
+  </div>
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler mx-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+  
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -53,12 +54,12 @@
           Esperando...
         </div>
         <div class="modal-footer">
-
+  
         </div>
       </div>
     </div>
   </div>
-    
+  
   <nav class="navbar navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
       <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
@@ -77,26 +78,20 @@
       </div>
     </div>
   </nav>
-
-  <!-- Button trigger modal -->
-
-
-<!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">No disponible</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Aceptar</button>
+  
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">No disponible</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Aceptar</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
-
-</body>
